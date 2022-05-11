@@ -45,7 +45,7 @@ fun setUIHome() {
 
     var plant: Plant = Plant(
         1,
-        "Aloe Vera",
+        "Aloe Vera (Pan)",
         "It is used in the pharmaceutical industryfor its healing properties and it can often be found in serveral cosmetic products as well.",
         R.drawable.ic_aloe_vera
     )
