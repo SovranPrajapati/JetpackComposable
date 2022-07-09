@@ -257,7 +257,7 @@ private fun Login(context: Context) {
             onClick = {
                 ContextCompat.startActivity(
                     context,
-                    Intent(context, HomeActivity::class.java),
+                    Intent(context, NewHomeActivity::class.java),
                     null
                 )
             },

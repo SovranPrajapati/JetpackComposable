@@ -13,4 +13,5 @@
     <string name="are_you_new_user">Are you new user?</string>
     <string name="register">Register</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_new_home">NewHomeActivity</string>
 </resources>

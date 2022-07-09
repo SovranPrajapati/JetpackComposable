@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PricingJetpack">
         <activity
+            android:name=".activity.NewHomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_new_home"
+            android:theme="@style/Theme.PricingJetpack" />
+        <activity
             android:name=".activity.HomeActivity"
             android:exported="true"
             android:label="@string/title_activity_home"
@@ -23,8 +28,8 @@
             android:name=".activity.LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login"
-            android:windowSoftInputMode="adjustResize"
-            android:theme="@style/Theme.PricingJetpack" />
+            android:theme="@style/Theme.PricingJetpack"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".activity.MainActivity"
             android:exported="true"
